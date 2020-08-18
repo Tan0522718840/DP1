@@ -30,7 +30,6 @@ bool check(int i,int k)
 }
 int dp(int i, int j)
 {
-    int ix=i,jx=j;
     if(j > n) return 1;
     if(f[i][j] != -1) return f[i][j];
 
